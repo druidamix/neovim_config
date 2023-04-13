@@ -1,0 +1,7 @@
+{
+        "suggest.noselect": true,
+        "diagnostic.errorSign": "✘",
+        "diagnostic.warningSign": "!",
+        "diagnostic.infoSign": "?",
+        "diagnostic.checkCurrentLine": true,
+}
