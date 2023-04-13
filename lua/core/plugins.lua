@@ -33,9 +33,10 @@ return packer.startup(function(user)
         --        require('Comment').setup()
         --    end
         --}
+        use {"akinsho/toggleterm.nvim", tag = '*'}
         --use  "kyazdani42/nvim-web-devicons" -- armonize color icons
         use "kyazdani42/nvim-tree.lua"          -- like neerdtree
-        use "akinsho/bufferline.nvim"           -- better tabs
+       -- use "akinsho/bufferline.nvim"           -- better tabs
         use "nvim-lualine/lualine.nvim"         -- fast, easy to configure status line
         use "ahmedkhalf/project.nvim"           -- manage projects
         use "lewis6991/impatient.nvim"          -- improves neovim startup time
@@ -44,13 +45,13 @@ return packer.startup(function(user)
         -- Colorschemes
         use  "folke/tokyonight.nvim" 
         --use  "lunarvim/darkplus.nvim"
-
+        use "folke/which-key.nvim"
         --        -- LSP
         use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
-        use 'nvim-treesitter/nvim-treesitter' --Treesitter 
+        ----use 'nvim-treesitter/nvim-treesitter' --Treesitter 
 
-        use 'ray-x/go.nvim'
 
+	use 'fatih/vim-go'
 
 --        use "williamboman/mason.nvim" --Simple to use languge server installer
 --        use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
